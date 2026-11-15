@@ -1,14 +1,16 @@
-# Backup e configurazione privata del vecchio WordPress
+# Backup, credenziali e vecchio codice WordPress
 *.sql
 *.sql.gz
 *.sql.zip
 *.php
 wp-admin/
 wp-includes/
-wp-content/
+wp-content/plugins/
+wp-content/themes/
 .env
 .env.*
 !.env.example
 *.log
 .DS_Store
 node_modules/
+_source/
