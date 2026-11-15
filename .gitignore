@@ -1,0 +1,14 @@
+# Backup e configurazione privata del vecchio WordPress
+*.sql
+*.sql.gz
+*.sql.zip
+*.php
+wp-admin/
+wp-includes/
+wp-content/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+node_modules/
